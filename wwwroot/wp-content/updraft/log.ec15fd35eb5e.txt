@@ -1,0 +1,62 @@
+0000.035 () Opened log file at time: Thu, 23 Jul 2015 10:40:55 +0000 on http://en.tripleplus.io
+0000.036 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.10.3 WP: 4.2.2 PHP: 5.4.42 (Windows NT RD0003FF416A76 6.2 build 9200 (Windows Server 2012 Datacenter Edition) i586) MySQL: 5.5.42-log Server: Microsoft-IIS/8.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.6M | 8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.038 () Free space on disk containing Updraft's temporary directory: 50752.3 Mb
+0000.039 () Restore job started. Entities to restore: db
+0000.227 () Entity: db
+0000.228 () restore_backup(backup_file=backup_2015-07-23-1035_TriplePlus_c7d7b940d31c-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.229 () Unpacking backup...
+0000.275 () Database successfully unpacked
+0000.295 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.301 () Using direct MySQL access; value of use_mysqli is: 0
+0000.310 () Max packet size: 64 Mb
+0000.310 () Entering maintenance mode
+0000.311 () מעבר למצב תחזוקה&#8230;
+0000.337 () Backup created by: 1.10.3
+0000.340 () <strong>Backup of:</strong> http://en.tripleplus.io
+0000.348 () Content URL: http://tripleplus.io/wp-content
+0000.349 () Old table prefix: wpH_
+0000.350 () Site information: multisite=0
+0000.364 () New table prefix: wpH_
+0000.400 () Restoring table (InnoDB): wpH_options
+0000.694 () Restoring prior UD configuration (table: wpH_options; keys: 2)
+0000.737 () Restoring table (InnoDB): wpH_users
+0000.888 () Restoring table (InnoDB): wpH_usermeta
+0001.288 () Restoring table (InnoDB): wpH_commentmeta
+0001.396 () Restoring table (InnoDB): wpH_comments
+0001.493 () Restoring table (InnoDB): wpH_links
+0001.590 () Restoring table (InnoDB): wpH_postmeta
+0002.516 () Restoring table (InnoDB): wpH_posts
+0002.707 () Restoring table (InnoDB): wpH_term_relationships
+0002.805 () Restoring table (InnoDB): wpH_term_taxonomy
+0002.905 () Restoring table (InnoDB): wpH_terms
+0002.974 () Restoring table (InnoDB): wpH_admin_bar_table
+0003.040 () Restoring table (InnoDB): wpH_contactformmaker
+0003.208 () Restoring table (InnoDB): wpH_contactformmaker_blocked
+0003.285 () Restoring table (InnoDB): wpH_contactformmaker_submits
+0003.342 () Restoring table (InnoDB): wpH_contactformmaker_themes
+0003.475 () Database queries processed: 50 in 3.17 seconds
+0003.499 () Restoring table (InnoDB): wpH_contactformmaker_views
+0004.174 () Restoring table (InnoDB): wpH_duplicator_packages
+0004.270 () Restoring table (InnoDB): wpH_login_redirects
+0004.329 () Restoring table (InnoDB): wpH_wysija_campaign
+0004.407 () Restoring table (InnoDB): wpH_wysija_campaign_list
+0004.476 () Restoring table (InnoDB): wpH_wysija_custom_field
+0004.559 () Restoring table (InnoDB): wpH_wysija_email
+0004.645 () Restoring table (InnoDB): wpH_wysija_email_user_stat
+0004.699 () Restoring table (InnoDB): wpH_wysija_email_user_url
+0004.779 () Restoring table (InnoDB): wpH_wysija_form
+0004.857 () Restoring table (InnoDB): wpH_wysija_list
+0004.950 () Restoring table (InnoDB): wpH_wysija_queue
+0005.033 () Restoring table (InnoDB): wpH_wysija_url
+0005.111 () Restoring table (InnoDB): wpH_wysija_url_mail
+0006.255 () Restoring table (InnoDB): wpH_wysija_user
+0006.473 () Restoring table (InnoDB): wpH_wysija_user_field
+0006.555 () Restoring table (InnoDB): wpH_wysija_user_history
+0006.690 () Restoring table (InnoDB): wpH_wysija_user_list
+0006.773 () Database queries processed: 100 in 6.47 seconds
+0006.774 () Leaving maintenance mode
+0006.775 () ביטול מצב תחזוקה&#8230;
+0006.793 () Finished: lines processed: 100 in 6.49 seconds
+0006.824 () Cleaning up rubbish...
+0006.928 () Restore successful!
+0006.928 () Restore successful

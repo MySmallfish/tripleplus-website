@@ -1,0 +1,11 @@
+0000.036 () Opened log file at time: Thu, 23 Jul 2015 09:42:00 +0000 on http://en.tripleplus.io
+0000.037 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.10.3 WP: 4.2.2 PHP: 5.4.42 (Windows NT RD0003FF416A76 6.2 build 9200 (Windows Server 2012 Datacenter Edition) i586) MySQL: 5.5.42-log Server: Microsoft-IIS/8.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.6M | 8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.039 () Free space on disk containing Updraft's temporary directory: 50774.8 Mb
+0000.040 () Restore job started. Entities to restore: db
+0000.236 () Entity: db
+0000.237 () restore_backup(backup_file=backup_2015-07-23-0921_TriplePlus_5fa7a8c2a5b9-db.zip, type=db, info=a:0:{}, last_one=1)
+0000.239 () Unpacking backup... (backup_2015-07-23-0921_TriplePlus_5fa7a8c2a5b9-db.zip, 0.2 Mb)
+0000.447 () Error message: Failed to find database file (D:/home/site/wwwroot/wp-content/upgrade/415c92f2/backup.db.gz)
+0000.448 () Restore failed...
+0000.448 () Error message: Failed to find database file (D:/home/site/wwwroot/wp-content/upgrade/415c92f2/backup.db.gz)
+0000.449 () Restore failed
