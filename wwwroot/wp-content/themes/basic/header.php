@@ -28,7 +28,17 @@
     
 		<?php themify_header_before(); // hook ?>
 		<header id="header" class="pagewidth">
-		<div id="lang-div">English</div>
+		<div id="lang-div">
+        <ul>
+<li>
+			<ul>
+				<li><a href="#">English</a></li>
+				<li><a href="#">Hebrew</a></li>
+			</ul>
+		</li>
+        </ul>
+</div>
+
         <?php themify_header_start(); // hook ?>
 			<hgroup>
 				<?php echo themify_logo_image('site_logo'); ?>
