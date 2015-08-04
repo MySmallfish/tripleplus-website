@@ -19,13 +19,13 @@
 define('DB_NAME', 'cdb_8510ad3c79');
 
 /** MySQL database username */
-define('DB_USER', 'b5a03292cf20d7');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '825d369d');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
-define('DB_HOST', 'eu-cdbr-azure-west-c.cloudapp.net');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
