@@ -34,9 +34,9 @@
         <ul>
 			<li>Language
 				<ul>
-					<li><a href="#">English</a></li>
-					<li><a href="#">עברית</a></li>
-					<li><a href="#">español</a></li>
+					<li><a href="http://tripleplus.io">English</a></li>
+					<li><a href="http://en.tripleplus.io">עברית</a></li>
+					<li><a href="http://es.tripleplus.io">español</a></li>
 					
 				</ul>
 			</li>

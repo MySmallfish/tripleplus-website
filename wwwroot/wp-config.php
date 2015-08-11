@@ -65,15 +65,15 @@ switch ($_SERVER['HTTP_HOST'] ) {
        $table_prefix  = 'wp_';
         break;
     case "es.tripleplus.io":
-        $table_prefix  = 'wpes_';
+        $table_prefix  = 'wph_';
         break;
     case "en.tripleplus.io":
-        $table_prefix  = 'wph_';
+        $table_prefix  = 'wp_';
 
         break;
    
     default:
-       $table_prefix  = 'wp_';
+       $table_prefix  = 'wph_';
 }
 /**
  * For developers: WordPress debugging mode.
