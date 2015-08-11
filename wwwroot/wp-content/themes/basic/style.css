@@ -48,7 +48,10 @@ img {
         width: auto;
     }
 }
+a {
+    font-weight:300;
 
+}
 /* set html5 elements to block */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
@@ -486,6 +489,7 @@ MAIN NAVIGATION
 }
 
 #lang-div {
+    font-family: Tahoma;
 }
 
     #lang-div ul {
@@ -504,26 +508,33 @@ MAIN NAVIGATION
         position: absolute;
         right: 0;
         top: 0px;
-        transition: all ease 1s;
+        transition: all ease 0.7s;
     }
 
         #lang-div ul li:hover > ul {
-            height: 56px;
-            transition: all ease 1s;
+            opacity: 1;
+            height: 80px;
+            transition: all ease 0.7s;
+            display: block;
+            z-index: 999999999;
         }
-
-
-        /*#lang-div ul ul {
-            display: none;
-        }*/
 
         #lang-div ul li:hover > ul {
-            display: block;
         }
 
-        #lang-div ul ul li a {
-            color: #fff;
+
+        #lang-div ul ul {
+            z-index: 999999999;
+            height: 0px;
+            opacity: 0;
+            transition: all ease 0.7s;
         }
+
+
+
+            #lang-div ul ul li a {
+                color: #fff;
+            }
 
 #main-nav li {
     margin: 0;
@@ -1849,7 +1860,7 @@ hr {
     position: absolute;
     background: #FFF;
     z-index: 100;
-    background-color: rgba(255, 255, 255, 0.72);
+    background-color: rgba(255, 255, 255, 0.85);
     border-radius: 0;
     border: 0;
 }
@@ -1950,6 +1961,7 @@ img.alignleft, img.aligncenter, img.alignright, img.alignnone {
 .slide1 {
     margin-top: 96px !important;
     margin-left: 330px !important;
+    padding-left: 30px;
     font-size: 24pt;
     line-height: 24pt;
     color: #58585a;
@@ -1971,11 +1983,21 @@ img.alignleft, img.aligncenter, img.alignright, img.alignnone {
 .themify_builder_content-11 > .module_row_1.module_row {
     margin-top: 0px !important;
 }
-
-.col5-1.tb-column:hover {
+#text-11-1-3-1, #text-11-1-2-1, #text-11-1-1-1 , #text-11-1-0-1{
+    transition:all ease 0.3s;
+}
+#text-11-1-3-1:hover, #text-11-1-2-1:hover, #text-11-1-1-1:hover , #text-11-1-0-1:hover {
     background-color: rgba(255, 255, 255, 0.3);
+    transition:all ease 0.3s;
 }
 
+.tg tr td {
+       font-weight: bold !important;
+}
+#main-nav ul ul {
+    left: 202px;
+    top: 0px;
+}
 .styletxt {
     visibility: hidden;
 }
@@ -2019,6 +2041,7 @@ html, body {
 
 #body {
     padding-bottom: 50px;
+      
 }
 
 #footerwrap {
@@ -2095,4 +2118,41 @@ img.wpcf7-form-control.wpcf7-captchac.wpcf7-captcha-captcha-904 {
 .clearfix, .widget li, #body, #footer, footer, .pagenav, #main-nav, .menu, .gallery, #content {
     display: block;
     zoom: 1;
+}
+
+input#user_login, input#user_pass {
+    background: #FFFFFF;
+    border: solid 1px #ddd;
+    border-radius: 0;
+}
+
+p.login-submit, p.form-submit {
+    text-align: right;
+}
+
+input#wppb-submit {
+    border-radius: 0;
+    height: 28px;
+    line-height: 17px;
+}
+
+form#wppb-register-user {
+    color: #58585A;
+    font-weight: 500;
+}
+
+#wppb-register-user input[type=text], input[type=password], input#username_email, form#wppb-edit-user input[type=text], input[type=password] {
+    border-radius: 0 !important;
+    background: #FFFFFF;
+    border: solid 1px #ddd !important;
+}
+
+input#register, input#wppb-recover-password-button {
+    border-radius: 0;
+        height: 28px;
+    line-height: 17px;
+}
+
+body{
+    overflow:scroll;
 }

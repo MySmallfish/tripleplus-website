@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html <?php echo themify_get_html_schema(); ?> <?php language_attributes(); ?>>
 <head>
 <?php
@@ -18,11 +18,13 @@
 <!-- wp_header -->
 <?php wp_head(); ?>
 
+<link rel="shortcut icon"  type="image/vnd.microsoft.icon" href="icon.ico">
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> >
+
 <?php themify_body_start(); // hook ?>
-<div id="pagewrap" class="hfeed site">
+<div id="pagewrap" class="hfeed site ">
 
 	<div id="headerwrap">
     
@@ -30,12 +32,14 @@
 		<header id="header" class="pagewidth">
 		<div id="lang-div">
         <ul>
-<li>
-			<ul>
-				<li><a href="#">English</a></li>
-				<li><a href="#">Hebrew</a></li>
-			</ul>
-		</li>
+			<li>Language
+				<ul>
+					<li><a href="#">English</a></li>
+					<li><a href="#">עברית</a></li>
+					<li><a href="#">español</a></li>
+					
+				</ul>
+			</li>
         </ul>
 </div>
 

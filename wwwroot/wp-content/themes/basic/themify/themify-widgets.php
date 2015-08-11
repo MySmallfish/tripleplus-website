@@ -115,7 +115,7 @@ class Themify_Social_Links extends WP_Widget {
 					if('' != $link_val){
 						echo sprintf('
 							<li class="social-link-item %s %s %s">
-								<a href="%s" title="%s" %s>%s %s %s</a>
+								<a target="_blank" href="%s" title="%s" %s>%s %s %s</a>
 							</li>
 							<!-- /themify-link-item -->',
 							sanitize_title($title_val),
