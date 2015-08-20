@@ -60,7 +60,11 @@ global $themify; ?>
             <?php _e('<!--:en-->Contact us<!--:--><!--:he-->יצירת קשר<!--:-->'); ?>
           </div>
           <div id="contact_us_deatils-description">
-            <?php echo get_field( "contact_us_deatils" );  ?>
+    
+									<?php	
+	$post_object = get_field('contact_us_deatils');
+	if( $post_object ){	$post = $post_object;	setup_postdata( $post ); the_content(); wp_reset_postdata();} 
+?>
           </div>
         </div>
         <div id="contact_us_form">
@@ -68,7 +72,7 @@ global $themify; ?>
             <?php // _e('<!--:en-->Contact us<!--:--><!--:he-->יצירת קשר<!--:-->'); ?>
           </div>
           <div id="contact_us_form-description">
-            <?php echo get_field( "contact_us_form" );  ?>
+            <?php echo do_shortcode( get_field( "contact_us_form" ) );  ?>
           </div>
         </div>
 
