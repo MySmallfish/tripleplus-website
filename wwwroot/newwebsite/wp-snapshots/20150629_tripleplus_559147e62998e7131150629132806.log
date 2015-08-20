@@ -1,0 +1,75 @@
+********************************************************************************
+PACKAGE-LOG: 2015-06-29 13:29:04
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.22
+WORDPRESS:	4.2.2
+PHP INFO:	5.4.42 | SAPI: cgi-fcgi
+SERVER:		Microsoft-IIS/8.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (128M default) 
+MEMORY STACK: 9.25MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP (query limit - 100)
+MYSQLDUMP:    Not Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:12 | filtered:0 | create:12 
+FILTERED: [] 
+SQL CREATED: 20150629_tripleplus_559147e62998e7131150629132806_database.sql 
+SQL FILE SIZE: 572.14KB 
+SQL FILE TIME: 2015-06-29 13:29:04 
+SQL RUNTIME: 0.20 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  D:/home/site/wwwroot 
+ARCHIVE FILE: 20150629_tripleplus_559147e62998e7131150629132806_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	32.56MB 
+STATS:	Dirs 283 | Files 2,179 | Links 0 
+SQL ADDED: 20150629_tripleplus_559147e62998e7131150629132806_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2462
+    [filename] => D:\home\site\wwwroot\wp-snapshots\tmp\20150629_tripleplus_559147e62998e7131150629132806_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 14.93MB 
+ARCHIVE RUNTIME: 117.61 sec. 
+MEMORY STACK: 10MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [D:/home/site/wwwroot/wp-snapshots/tmp/20150629_tripleplus_559147e62998e7131150629132806_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 572.14KB 
+Installer File: 317.98KB 
+Archive File: 14.93MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 123.51 sec.
+PEAK PHP MEMORY USED: 12.5MB
+DONE PROCESSING => 20150629_tripleplus 2015-06-29 13:31:08
+ 

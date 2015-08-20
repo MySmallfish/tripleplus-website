@@ -1,0 +1,16 @@
+/* Themify Customize Styling */
+#site-logo {		position:absolute;
+
+	top: 70px;
+	left: 20px; 
+}
+#site-description {	display: none; 
+}
+#footerwrap {	
+	background-color: #58585a;
+	background-color: rgba(88,88,90,1); 
+}
+#footer a {	
+	color: #939598;
+	color: rgba(147,149,152,1); 
+}

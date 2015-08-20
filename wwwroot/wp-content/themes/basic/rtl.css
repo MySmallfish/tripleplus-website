@@ -21,6 +21,7 @@ in the theme folder and it will automatically load in the <head>.
 /************************************************************************************
 RESET
 *************************************************************************************/
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
 
 /* set img max-width */
 
@@ -223,8 +224,7 @@ MAIN NAVIGATION
 }
 
 .info-box {
-    right: 100px;
-	left: auto;
+	left: 0px;
 }
 
 /* show dropdown ul */
@@ -687,6 +687,7 @@ MyStyles
 
 /*#body */
 
+
 #main-nav {
     right: 150px;
 	left: auto;
@@ -702,7 +703,9 @@ MyStyles
 .tg-0ord {
     text-align: left;
 }
-
+.tg{
+ direction: rtl;
+}
 .tg-031e {
     text-align: right;
 }
@@ -712,7 +715,7 @@ MyStyles
 }
 
 .lolx {
-    text-align: left;
+    text-align: right;
 }
 
 .mobile-button {
@@ -764,7 +767,9 @@ MyStyles
     margin-right: 330px !important;
     padding-right: 30px;
 	padding-left: 0;
-	margin-left: auto;
+	margin-left: 1px !important;
+	text-align: right;
+	font-family: 'Open Sans Hebrew', sans-serif;
 }
 
 .down-box {
@@ -806,6 +811,22 @@ img.wpcf7-form-control.wpcf7-captchac.wpcf7-captcha-captcha-904 {
 p.login-submit, p.form-submit {
     text-align: left;
 }
-
+body{
+	font-family: 'Open Sans Hebrew', sans-serif !important;
+	}
+h1, h2, h3, h4, h5, h6, h0 {
+    line-height: 1.4em;
+    margin: 0;
+    font-family: 'Open Sans Hebrew', sans-serif !important;
+    font-weight: 300;
+}
+.themify_builder_content-11 > .module_row_1.module_row {
+    background-color: #ffc90a;
+   font-family: 'Open Sans Hebrew', sans-serif !important;
+    color: #ffffff;
+}
+.wysija-input {
+font-family: 'Open Sans Hebrew', sans-serif !important;
+}
 
 /* Made by the RTL-er.com - http://www.rtl-er.com */
