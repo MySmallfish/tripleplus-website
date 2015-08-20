@@ -56,7 +56,10 @@ global $themify; ?>
 			<?php _e('<!--:en-->Who we are<!--:--><!--:he-->מי אנחנו<!--:-->'); ?>
 			</div>
 			<div id="who_we_are-description">
-				<?php echo get_field( "who_we_are" );  ?>
+				<?php	
+	$post_object = get_field('who_we_are');
+	if( $post_object ){	$post = $post_object;	setup_postdata( $post ); the_content(); wp_reset_postdata();} 
+?>
 			</div>
 		</div>
 		<div id="our_technology">	
@@ -64,7 +67,10 @@ global $themify; ?>
 			<?php _e('<!--:en-->Our Technology<!--:--><!--:he-->טכנולגיה<!--:-->'); ?>
 			</div>
 			<div id="our_technology-description">
-				<?php echo get_field( "our_technology" );  ?>
+								<?php	
+	$post_object = get_field('our_technology');
+	if( $post_object ){	$post = $post_object;	setup_postdata( $post ); the_content(); wp_reset_postdata();} 
+?>
 			</div>
 		</div>
 		<div id="our_vision">	
@@ -72,7 +78,10 @@ global $themify; ?>
 			<?php _e('<!--:en-->Our Vision<!--:--><!--:he-->החזון שלנו<!--:-->'); ?>
 			</div>
 			<div id="our_vision-description">
-				<?php echo get_field( "our_vision" );  ?>
+<?php	
+	$post_object = get_field('our_vision');
+	if( $post_object ){	$post = $post_object;	setup_postdata( $post ); the_content(); wp_reset_postdata();} 
+?>
 			</div>
 		</div>
 		<div id="aboutus_footer">	
@@ -80,7 +89,10 @@ global $themify; ?>
 			<?php _e('<!--:en-->wireless/mobile connectivity and management applications.<!--:--><!--:he-->קישור אלחוטי / נייד ואפליקציות ניהול.<!--:-->'); ?>
 			</div>
 			<div id="aboutus_footer-description">
-				<?php echo get_field( "aboutus_footer" );  ?>
+<?php	
+	$post_object = get_field('aboutus_footer');
+	if( $post_object ){	$post = $post_object;	setup_postdata( $post ); the_content(); wp_reset_postdata();} 
+?>
 			</div>
 		</div>
 			
