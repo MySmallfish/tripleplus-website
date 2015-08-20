@@ -32,7 +32,10 @@ global $themify; ?>
 						
 			<!-- page-title -->
 			<?php if($themify->page_title != "yes"): ?> 
-				<h1 class="page-title" itemprop="name"><?php the_title(); ?></h1>
+
+				<div id="aboutus_text_header" class="page-title" itemprop="name">
+				<h1 class="page-title" itemprop="name"></h1>
+				<?php the_title(); ?></div>
 			<?php endif; ?>	
 			<!-- /page-title -->
 

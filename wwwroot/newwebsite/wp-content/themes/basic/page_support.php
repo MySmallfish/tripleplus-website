@@ -151,27 +151,40 @@ global $themify; ?>
 ?>
           </div>
         </div>
-        <div id="support_contact_us">
-          <div id="support_contact_us-title">
+
+
+      <div class="page-content entry-content" itemprop="articleBody">
+
+		
+		<div class="row_inner" id="contact_us_deatils-container">
+        <div id="contact_us_deatils" class="col4-2 first tb-column">
+          <div id="contact_us_deatils-title">
             <?php _e('<!--:en-->Contact us<!--:--><!--:he-->יצירת קשר<!--:-->'); ?>
           </div>
-          <div id="support_contact_us-description">
+          <div id="contact_us_deatils-descriptionn">
 			<?php	
 	$post_object = get_field('support_contact_us');
 	if( $post_object ){	$post = $post_object;	setup_postdata( $post ); the_content(); wp_reset_postdata();} 
 ?>
+
           </div>
         </div>
-        <div id="support_contact_form">
-          <div id="support_contact_form-title">
-
+        <div id="contact_us_form" class="col4-2 last tb-column">
+          <div id="contact_us_form-title">
+            <?php // _e('<!--:en-->Contact us<!--:--><!--:he-->יצירת קשר<!--:-->'); ?>
           </div>
-          <div id="support_contact_form-description">
-            <?php echo do_shortcode( get_field( "support_contact_form" ) );  ?>
+          <div id="contact_us_form-description">
+			            <?php echo do_shortcode( get_field( "support_contact_form" ) );  ?>
+
           </div>
         </div>
+		</div>
 
 
+
+
+
+      </div>
 
 
 

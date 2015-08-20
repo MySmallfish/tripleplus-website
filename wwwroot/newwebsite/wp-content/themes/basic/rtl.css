@@ -911,3 +911,11 @@ div#common_questions-title {
     div#common_questions-title:before {
         margin-right: -60px;
     }
+    .alignnone.wp-image-4621{
+         -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
