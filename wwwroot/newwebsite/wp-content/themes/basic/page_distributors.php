@@ -53,9 +53,9 @@ global $themify; ?>
             <?php echo get_field( "distributors_text_header" );  ?>
      </div>
       <div class="page-content entry-content" itemprop="articleBody">
-
+	  <div id="distributors_text_content">
         <?php the_content(); ?>
-
+		</div>
         <div id="contact_us_deatils" class="col4-2 first tb-column">
           <div id="contact_us_deatils-title">
             <?php // _e('<!--:en-->Contact us<!--:--><!--:he-->יצירת קשר<!--:-->'); ?>

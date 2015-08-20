@@ -859,9 +859,11 @@ div#page-4458 {
     #our_vision:before {
         height: 170px;
     }
+
 div#aboutus_footer-description {
     padding-left: 165px;
 }
+
 div#aboutus_footer:before {
     height: 33em;
     -moz-transform: scaleX(-1);
@@ -878,8 +880,9 @@ div#slider-4414-0-0-1 {
 
 @media screen and (max-width: 480px) {
     div#aboutus_footer-description {
-    padding-left: 0!important;
-}
+        padding-left: 0 !important;
+    }
+
     #header hgroup {
         direction: ltr;
     }
@@ -900,3 +903,11 @@ div#slider-4414-0-0-1 {
         height: 43em;
     }
 }
+/* soppurt */
+div#common_questions-title {
+    margin-right: 50px;
+}
+
+    div#common_questions-title:before {
+        margin-right: -60px;
+    }

@@ -2449,6 +2449,7 @@ div#text-3091-0-0-1:before {
         background-color: #fbad18;
     }
 
+
 div#all-product-description {
     padding-top: 2em;
     font-size: 1.1em;
@@ -2457,3 +2458,112 @@ div#all-product-description {
 div#loops-wrapper {
     display: flex;
 }
+/* distabtuion */
+
+div#distributors_text_header {
+    line-height: 89px;
+    height: 89px;
+    font-size: 2.3em;
+    font-weight: 300;
+    color: #fff;
+    margin-top: -15px;
+}
+
+    div#distributors_text_header:before {
+        content: " ";
+        left: 0;
+        position: absolute;
+        height: 89px;
+        width: 100%;
+        z-index: -1;
+        background-color: #ffc90a;
+    }
+
+div#distributors_text_content {
+    padding-top: 30px;
+}
+
+/* soppurt */
+
+div#support_text_header {
+    margin-top: -15px;
+    height: 157px;
+    line-height: 157px;
+    color: #fff;
+    font-size: 2.2em;
+    font-weight: 300;
+}
+
+    div#support_text_header:before {
+        content: ' ';
+        background-color: #ffc90a;
+        width: 100%;
+        height: 157px;
+        position: absolute;
+        left: 0;
+        z-index: -1;
+    }
+
+div#support-container {
+    color: #666;
+    padding-top: 50px;
+    background-color: #f6f8f8;
+    color: #57585a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+    div#support-container:before {
+        content: ' ';
+        background-color: #F6F8F8;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        height: 269px;
+        z-index: -1;
+        margin-top: -60px;
+    }
+
+div#guides-container {
+    padding-top: 20px;
+}
+
+.title-list {
+    color: #666 !important;
+}
+
+    .title-list p {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .title-list hr {
+        display: inline-block;
+        background-color: rgba(102, 102, 102, 0.42);
+        height: 1px;
+        margin-bottom: 4px;
+        min-width: 50%;
+    }
+
+div#guides-description ul, #catalogs_and_more ul {
+    list-style-image: url('http://s10.postimg.org/hy0dkqtn9/pdf.png');
+}
+
+div#common_questions-title {
+    font-size: 2.3em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    font-weight: 300;
+    margin-left: 50px;
+}
+
+    div#common_questions-title:before {
+        position: absolute;
+        content: ' ';
+        width: 59px;
+        height: 59px;
+        background-image: url('http://tripleplus.io/wp-content/uploads/2015/07/Q.png');
+        background-size: cover;
+        margin-top: -19px;
+        margin-left: -60px;
+    }

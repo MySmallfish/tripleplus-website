@@ -54,8 +54,9 @@ global $themify; ?>
       <div class="page-content entry-content" itemprop="articleBody">
 
         <?php the_content(); ?>
-
-        <div id="support_top_boxs">
+		<div id="support-container" class="row_inner">
+		
+        <div id="support_top_boxs" class="col3-1 first tb-column">
           <div id="support_top_boxs-title">
 
           </div>
@@ -63,7 +64,7 @@ global $themify; ?>
             <?php echo get_field( "support_top_boxs" );  ?>
           </div>
         </div>
-	<div id="support_top_boxs2">
+	<div id="support_top_boxs2" class="col3-1 middle tb-column">
           <div id="support_top_boxs2-title">
 
           </div>
@@ -71,7 +72,7 @@ global $themify; ?>
             <?php echo get_field( "support_top_boxs_2" );  ?>
           </div>
         </div>
-	<div id="support_top_boxs3">
+	<div id="support_top_boxs3" class="col3-1 last tb-column">
           <div id="support_top_boxs3-title">
 
           </div>
@@ -79,9 +80,13 @@ global $themify; ?>
             <?php echo get_field( "support_top_boxs_3" );  ?>
           </div>
         </div>
-        <div id="guides">
-          <div id="guides-title">
-            <?php _e('<!--:en-->Guides<!--:--><!--:he-->מדריכים<!--:-->'); ?>
+		</div>
+
+		<div id="guides-container" class="row_inner"> 
+		        <div id="guides" class="col4-2 first tb-column">
+          <div id="guides-title" class="title-list">
+            <p><?php _e('<!--:en-->Guides<!--:--><!--:he-->מדריכים<!--:-->'); ?></p>
+			<hr>
           </div>
           <div id="guides-description">
             <?php $relateveGuides = get_field('guides');
@@ -101,9 +106,10 @@ global $themify; ?>
          
           </div>
         </div>
-        <div id="catalogs_and_more">
-          <div id="catalogs_and_more-title">
-            <?php _e('<!--:en-->Catalogs and more<!--:--><!--:he-->קטלוגים ועוד<!--:-->'); ?>
+        <div id="catalogs_and_more" class="col4-2 last tb-column">
+          <div id="catalogs_and_more-title" class="title-list">
+            <p><?php _e('<!--:en-->Catalogs and more<!--:--><!--:he-->קטלוגים ועוד<!--:-->'); ?></p>
+			<hr>
           </div>
           <div id="catalogs_and_more-description">
 		              <?php $relateveCatalogs = get_field('catalogs_and_more');
@@ -121,6 +127,9 @@ global $themify; ?>
             </ul>
             <?php endif; ?>
           </div>
+		</div>
+
+
         </div>
         <div id="common_questions">
           <div id="common_questions-title">
