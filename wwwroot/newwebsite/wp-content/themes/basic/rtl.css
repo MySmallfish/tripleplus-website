@@ -27,7 +27,6 @@ RESET
 
 /* ie 8 img max-width */
 @media \0screen {
-
 }
 
 /* set html5 elements to block */
@@ -103,20 +102,20 @@ GRID
 .col2-1 {
     margin-right: 3.2%;
     float: right;
-	margin-left: auto;
+    margin-left: auto;
 }
 
-.col.first,
+    .col.first,
     .col4-1.first,
     .col4-2.first,
     .col4-3.first,
     .col3-1.first,
     .col3-2.first,
     .col2-1.first {
-    margin-right: 0;
-    clear: right;
-	margin-left: auto;
-}
+        margin-right: 0;
+        clear: right;
+        margin-left: auto;
+    }
 
 /************************************************************************************
 HEADER
@@ -136,61 +135,61 @@ SOCIAL WIDGET
 .social-widget {
     float: left;
     left: 0;
-	right: auto;
+    right: auto;
 }
 
-.social-widget .widget {
-    margin: 0 0 0 2px;
-}
+    .social-widget .widget {
+        margin: 0 0 0 2px;
+    }
 
-.social-widget .widgettitle {
-    margin: 5px 0 2px 8px;
-}
+    .social-widget .widgettitle {
+        margin: 5px 0 2px 8px;
+    }
 
-.social-widget ul {
-    margin: 6px !important 0 0;
-}
+    .social-widget ul {
+        margin: 6px !important 0 0;
+    }
 
-.social-widget ul li {
-    padding: 0 0 5px 2px;
-}
+        .social-widget ul li {
+            padding: 0 0 5px 2px;
+        }
 
-/* 
+    /* 
 RSS
 ================================================ */
 
-.social-widget .rss a {
-    background: url(images/rss.png) no-repeat right center;
-    padding: 3px 30px 2px 0;
-}
+    .social-widget .rss a {
+        background: url(images/rss.png) no-repeat right center;
+        padding: 3px 30px 2px 0;
+    }
 
 /* 
 SEARCH FORM
 ================================================ */
 #header #searchform {
     left: 0;
-	right: auto;
+    right: auto;
 }
 
-#header #searchform #s {
-    padding-right: 28px;
-    float: left;
-	padding-left: 0;
-}
+    #header #searchform #s {
+        padding-right: 28px;
+        float: left;
+        padding-left: 0;
+    }
 
 /* 
 MAIN NAVIGATION
 ================================================ */
 #main-nav {
     right: 0;
-	left: auto;
+    left: auto;
 }
 
 #lang-div ul {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     left: 0;
-	right: auto;
+    right: auto;
 }
 
 #main-nav li {
@@ -218,13 +217,13 @@ MAIN NAVIGATION
 /* dropdown ul */
 
 /* sub-levels dropdown */
-    #main-nav ul ul {
+#main-nav ul ul {
     right: 190px;
-	left: auto;
+    left: auto;
 }
 
 .info-box {
-	left: 0px;
+    left: 0px;
 }
 
 /* show dropdown ul */
@@ -260,13 +259,13 @@ POST
 .post-image.right {
     float: right;
     margin-left: 15px;
-	margin-right: auto;
+    margin-right: auto;
 }
 
 .post-image.left {
     float: left;
     margin-right: 15px;
-	margin-left: auto;
+    margin-left: auto;
 }
 
 /* lightbox zoom image */
@@ -274,7 +273,7 @@ POST
 .post-image .lightbox .zoom {
     margin: -20px -20px 0 0;
     right: 50%;
-	left: auto;
+    left: auto;
 }
 
 /* post meta */
@@ -282,19 +281,19 @@ POST
 .post-meta .post-author {
     padding: 2px 16px 2px 0;
     margin-left: 7px;
-	margin-right: auto;
+    margin-right: auto;
 }
 
 .post-meta .post-category {
     padding: 2px 16px 2px 0;
     margin-left: 7px;
-	margin-right: auto;
+    margin-right: auto;
 }
 
 .post-meta .post-tag {
     padding: 2px 16px 2px 0;
     margin-left: 7px;
-	margin-right: auto;
+    margin-right: auto;
 }
 
 .post-meta .post-comment a {
@@ -305,28 +304,28 @@ POST
 .loops-wrapper.grid4 .post {
     float: right;
     margin-right: 3.2%;
-	margin-left: auto;
+    margin-left: auto;
 }
 
 /* grid3 post */
 .loops-wrapper.grid3 .post {
     float: right;
     margin-right: 3.2%;
-	margin-left: auto;
+    margin-left: auto;
 }
 
 /* grid2 post */
 .loops-wrapper.grid2 .post {
     float: right;
     margin-right: 3.2%;
-	margin-left: auto;
+    margin-left: auto;
 }
 
 /* grid2-thumb post */
 .loops-wrapper.grid2-thumb .post {
     float: right;
     margin-right: 3.2%;
-	margin-left: auto;
+    margin-left: auto;
 }
 
 .loops-wrapper.grid2-thumb .post-image {
@@ -341,7 +340,7 @@ POST
 .loops-wrapper.grid2-thumb .post:nth-of-type(2n+1) {
     margin-right: 0;
     clear: right;
-	margin-left: auto;
+    margin-left: auto;
 }
 
 /* list thumb post */
@@ -361,13 +360,13 @@ POST VIDEO (css for fluid video)
 *************************************************************************************/
 
 .post-video iframe,
-    .post-video object,
-    .post-video embed,
-    .embed-youtube iframe,
-    .embed-youtube object,
-    .embed-youtube embed {
+.post-video object,
+.post-video embed,
+.embed-youtube iframe,
+.embed-youtube object,
+.embed-youtube embed {
     right: 0;
-	left: auto;
+    left: auto;
 }
 
 /************************************************************************************
@@ -397,15 +396,15 @@ POST NAVIGATION (the <nextpage> tag)
     text-align: left;
 }
 
-.post-pagination strong {
-    margin-left: 3px;
-	margin-right: auto;
-}
+    .post-pagination strong {
+        margin-left: 3px;
+        margin-right: auto;
+    }
 
-.post-pagination a {
-    margin-right: 3px;
-    margin-left: 3px;
-}
+    .post-pagination a {
+        margin-right: 3px;
+        margin-left: 3px;
+    }
 
 /************************************************************************************
 
@@ -422,7 +421,7 @@ POST NAVIGATION
 }
 
 /* post nav arrow */
-    .post-nav .arrow {
+.post-nav .arrow {
     float: right;
     margin: -8px 0 17px 10px;
 }
@@ -443,7 +442,7 @@ COMMENTS
 
 .commentwrap .pagenav.top {
     left: 0;
-	right: auto;
+    right: auto;
 }
 
 /* commentlist */
@@ -455,7 +454,7 @@ COMMENTS
 
 .commentlist .bypostauthor > .comment-author cite {
     padding-right: 18px;
-	padding-left: 0;
+    padding-left: 0;
 }
 
 .commentlist ul, .commentlist ol {
@@ -463,9 +462,9 @@ COMMENTS
 }
 
 /* reply link */
-    .commentlist .reply {
+.commentlist .reply {
     left: 0;
-	right: auto;
+    right: auto;
 }
 
 /* 
@@ -474,12 +473,12 @@ COMMENT FORM
 
 #respond #cancel-comment-reply-link {
     left: 0;
-	right: auto;
+    right: auto;
 }
 
 #commentform input[type=text] {
     margin-left: 5px;
-	margin-right: auto;
+    margin-right: auto;
 }
 
 /************************************************************************************
@@ -488,7 +487,7 @@ SIDEBAR
 
 .widget ul ul li {
     padding-right: 10px;
-	padding-left: 0;
+    padding-left: 0;
 }
 
 /************************************************************************************
@@ -511,7 +510,7 @@ WIDGET STYLES
 .recent-comments-list .avatar {
     margin-left: 12px;
     float: right;
-	margin-right: auto;
+    margin-right: auto;
 }
 
 /* flickr widget */
@@ -519,7 +518,7 @@ WIDGET STYLES
 .widget .flickr_badge_image img {
     margin-left: 12px;
     float: right;
-	margin-right: auto;
+    margin-right: auto;
 }
 
 /* flickr shortcode */
@@ -528,10 +527,10 @@ WIDGET STYLES
     float: right;
 }
 
-.shortcode .flickr_badge_image:nth-of-type(4n) {
-    margin-left: 0;
-	margin-right: auto;
-}
+    .shortcode .flickr_badge_image:nth-of-type(4n) {
+        margin-left: 0;
+        margin-right: auto;
+    }
 
 /* search widget */
 
@@ -552,18 +551,18 @@ FOOTER
     float: right;
 }
 
-.back-top a {
-    margin: 0 0 10px 10px;
-}
+    .back-top a {
+        margin: 0 0 10px 10px;
+    }
 
 /* footer nav */
 .footer-nav {
     text-align: right;
 }
 
-.footer-nav li {
-    margin: 0 0 5px 8px;
-}
+    .footer-nav li {
+        margin: 0 0 5px 8px;
+    }
 
 /* footer text */
 
@@ -574,13 +573,13 @@ WORDPRESS POST FORMATTING
 .alignright {
     float: right;
     margin-left: 30px;
-	margin-right: auto;
+    margin-right: auto;
 }
 
 .alignleft {
     float: left;
     margin-right: 30px;
-	margin-left: auto;
+    margin-left: auto;
 }
 
 .aligncenter {
@@ -601,7 +600,7 @@ GALLERY
 *************************************************************************************/
 
 /* gallery item */
-    #body .gallery .gallery-item {
+#body .gallery .gallery-item {
     margin: 0 0 8px 8px;
     float: right;
 }
@@ -643,7 +642,7 @@ GALLERY
     margin: 0 0 1.5% 1.5%;
 }
 
-/* clear gallery item margin-left */
+    /* clear gallery item margin-left */
     #body .gallery-columns-9 .gallery-item:nth-of-type(9n),
     #body .gallery-columns-8 .gallery-item:nth-of-type(8n),
     #body .gallery-columns-7 .gallery-item:nth-of-type(7n),
@@ -652,9 +651,9 @@ GALLERY
     #body .gallery-columns-4 .gallery-item:nth-of-type(4n),
     #body .gallery-columns-3 .gallery-item:nth-of-type(3n),
     #body .gallery-columns-2 .gallery-item:nth-of-type(2n) {
-    margin-left: 0;
-	margin-right: auto;
-}
+        margin-left: 0;
+        margin-right: auto;
+    }
 
 /************************************************************************************
 BUILDER
@@ -690,7 +689,7 @@ MyStyles
 
 #main-nav {
     right: 150px;
-	left: auto;
+    left: auto;
 }
 
 .slide-content {
@@ -703,9 +702,11 @@ MyStyles
 .tg-0ord {
     text-align: left;
 }
-.tg{
- direction: rtl;
+
+.tg {
+    direction: rtl;
 }
+
 .tg-031e {
     text-align: right;
 }
@@ -720,17 +721,17 @@ MyStyles
 
 .mobile-button {
     left: 0px;
-	right: auto;
+    right: auto;
 }
 
 #main-nav {
     right: 145px;
-	left: auto;
+    left: auto;
 }
 
 #site-logo {
     right: 0 !important;
-	left: auto;
+    left: auto;
 }
 
 .themify_builder .slider-11-0-0-1.module-slider {
@@ -742,17 +743,17 @@ MyStyles
 
 .coin-slider {
     right: -105px;
-	left: auto;
+    left: auto;
 }
 
 .widget_wysija_cont .wysija-submit {
     right: 238px;
-	left: auto;
+    left: auto;
 }
 
 .module-slider .carousel-nav-wrap {
     right: -200px !important;
-	left: auto;
+    left: auto;
 }
 
 .read-more {
@@ -760,16 +761,16 @@ MyStyles
     padding-right: 10px;
     padding-left: 5px;
     margin-right: 331px;
-	margin-left: auto;
+    margin-left: auto;
 }
 
 .slide1 {
     margin-right: 330px !important;
     padding-right: 30px;
-	padding-left: 0;
-	margin-left: 1px !important;
-	text-align: right;
-	font-family: 'Open Sans Hebrew', sans-serif;
+    padding-left: 0;
+    margin-left: 1px !important;
+    text-align: right;
+    font-family: 'Open Sans Hebrew', sans-serif;
 }
 
 .down-box {
@@ -779,12 +780,12 @@ MyStyles
 
 #main-nav ul ul {
     right: 202px;
-	left: auto;
+    left: auto;
 }
 
 .title-list p {
     margin-left: 10px;
-	margin-right: auto;
+    margin-right: auto;
 }
 
 /*.full_width #content*/
@@ -793,17 +794,17 @@ MyStyles
 
 .col-full first tb-column {
     padding-right: 160px;
-	padding-left: 0;
+    padding-left: 0;
 }
 
 td.send-button.last {
     right: 17px;
-	left: auto;
+    left: auto;
 }
 
 img.wpcf7-form-control.wpcf7-captchac.wpcf7-captcha-captcha-904 {
     margin-right: 5px;
-	margin-left: auto;
+    margin-left: auto;
 }
 
 /* clearfix for ie7 */
@@ -811,31 +812,37 @@ img.wpcf7-form-control.wpcf7-captchac.wpcf7-captcha-captcha-904 {
 p.login-submit, p.form-submit {
     text-align: left;
 }
-body{
-	font-family: 'Open Sans Hebrew', sans-serif !important;
-	}
+
+body {
+    font-family: 'Open Sans Hebrew', sans-serif !important;
+}
+
 h1, h2, h3, h4, h5, h6, h0 {
     line-height: 1.4em;
     margin: 0;
     font-family: 'Open Sans Hebrew', sans-serif !important;
     font-weight: 300;
 }
+
 .themify_builder_content-11 > .module_row_1.module_row {
     background-color: #ffc90a;
-   font-family: 'Open Sans Hebrew', sans-serif !important;
+    font-family: 'Open Sans Hebrew', sans-serif !important;
     color: #ffffff;
 }
+
 .wysija-input {
-font-family: 'Open Sans Hebrew', sans-serif !important;
+    font-family: 'Open Sans Hebrew', sans-serif !important;
 }
+
 .themify_builder .themify_builder_row.fullheight, .themify_builder .module_row.fullheight {
-height:auto !important;
+    height: auto !important;
 }
 
 /* new */
 div#themify-social-links-3 {
     text-align: left;
 }
+
 ul#main-nav {
     font-size: 1em;
 }
@@ -844,9 +851,52 @@ div#page-4458 {
     padding-right: 161px;
     padding-left: 200px;
 }
+
 #our_vision {
     height: 90px;
 }
-#our_vision:before {
-    height: 170px;
+
+    #our_vision:before {
+        height: 170px;
+    }
+div#aboutus_footer-description {
+    padding-left: 165px;
+}
+div#aboutus_footer:before {
+    height: 33em;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+div#slider-4414-0-0-1 {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    div#aboutus_footer-description {
+    padding-left: 0!important;
+}
+    #header hgroup {
+        direction: ltr;
+    }
+
+    #slider-4414-0-0-2 {
+        display: none;
+    }
+
+    #slider-4414-0-0-1 {
+        display: block !important;
+    }
+
+    .mobile-button {
+        margin-bottom: -21px !important;
+    }
+
+    div#aboutus_footer:before {
+        height: 43em;
+    }
 }

@@ -49,6 +49,7 @@ global $themify; ?>
       <?php endif; ?>
       <!-- /page-title -->
 	<div id="distributors_text_header">
+
             <?php echo get_field( "distributors_text_header" );  ?>
      </div>
       <div class="page-content entry-content" itemprop="articleBody">

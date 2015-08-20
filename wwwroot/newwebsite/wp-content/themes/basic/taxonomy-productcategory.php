@@ -20,10 +20,14 @@ global $themify;
 		// Category Title	 							
 		/////////////////////////////////////////////
 		?>
-		
-                <h1 class="page-title"><?php single_cat_title(); ?></h1>
-                <?php echo $themify->get_category_description(); ?>
+		                <h1 class="page-title"></h1>
 
+				<div id="all-product-title">
+						<?php single_cat_title(); ?>
+				</div>
+               <div id="all-product-description">
+                <?php echo $themify->get_category_description(); ?>
+				</div>
 		<?php 
 		/////////////////////////////////////////////
 		// Loop	 							

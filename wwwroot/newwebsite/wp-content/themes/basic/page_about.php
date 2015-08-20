@@ -13,7 +13,6 @@ global $themify; ?>
 
 
 <!-- layout-container -->
-<div class="header-title triple-yellow"> GET texxt!</div>
 <div id="layout" class="pagewidth clearfix">	
 
 	<?php themify_content_before(); // hook ?>

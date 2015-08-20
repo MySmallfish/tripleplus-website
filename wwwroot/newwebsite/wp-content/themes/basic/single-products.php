@@ -264,7 +264,6 @@ if( $relateveDoc ): ?>
 	</ul>
 <?php endif; ?>		
 		
-	<p> </p><table><tbody><tr><td><a href="/wp-content/uploads/2015/08/Installation-guide_NGL-SHUT-OFF.pdf"><img class="alignnone  wp-image-3691" src="/wp-content/uploads/2015/06/pdf.png" alt="pdf" width="24" height="23" /></a></td><td><a href="/wp-content/uploads/2015/08/Installation-guide_ngl_NGL-SH-IN-001_shut-off_he_A4.pdf">מדריך התקנה</a></td></tr></tbody></table>
 	</div>
 <!-- /module text --><style>.themify_builder .text-3091-1-1-5.module-text {  } 
 </style>

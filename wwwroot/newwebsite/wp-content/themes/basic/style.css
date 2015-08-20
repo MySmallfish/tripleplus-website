@@ -2213,28 +2213,62 @@ div#execphp-3 {
 div#themify-social-links-3 {
     text-align: right;
 }
+
 ul#main-nav a {
-     color: rgba(79,79,79,1.00);
+    color: rgba(79,79,79,1.00);
 }
-ul#main-nav a:hover {
-    color: rgba(79,79,79,0.8);
-}
+
+    ul#main-nav a:hover {
+        color: rgba(79,79,79,0.8);
+    }
+
 li.social-link-item.google.font-icon.icon-large {
     display: none !important;
+}
+
+div#slider-4435-0-0-1 {
+    display: none;
 }
 /* - - -  */
 .mobile-button {
     bottom: 25px;
 }
+
 @media screen and (max-width: 480px) {
     div#slide_ss {
-    display: none;
-}
+        /*display: none;*/
+    }
+
     #footerwrap {
         height: 205px;
     }
+
     div#themify-social-links-3 {
         text-align: center;
+    }
+
+    #slider-4435-0-0-2 {
+        display: none;
+    }
+
+    #slider-4435-0-0-1 {
+        display: block !important;
+    }
+
+    .mobile-button {
+        margin-bottom: -21px !important;
+    }
+
+    .row_inner {
+        max-width: 100% !important;
+    }
+
+    div#page-4458 {
+        padding: 0 !important;
+    }
+
+    div#aboutus_footer:before {
+        height: 74em !important;
     }
 }
 
@@ -2242,6 +2276,7 @@ li.social-link-item.google.font-icon.icon-large {
 .header-title {
     height: 100px;
 }
+
 .triple-yellow {
     background-color: #ffc90a;
 }
@@ -2251,56 +2286,174 @@ div#page-4458 {
     padding-right: 200px;
 }
 
-div#who_we_are-title , div#our_technology-title{
+div#who_we_are-title, div#our_technology-title {
     font-weight: 300;
     color: #fec80b;
     font-size: 2.8em;
     -webkit-margin-before: 0.67em;
     -webkit-margin-after: 0.67em;
 }
+
 #content {
     padding: 0;
 }
+
 #page-4458 .page-content.entry-content p {
     text-align: justify;
 }
+
 div#our_vision-title {
     font-size: 2em;
-
 }
+
 div#our_vision-description {
     padding-top: 3%;
 }
+
+    div#our_vision-description h4 strong {
+        color: #fff !important;
+    }
+
+div#aboutus_footer-title {
+    padding-top: 0.7em;
+    font-size: 2.2em;
+    font-weight: 300;
+    line-height: 40px;
+    color: #fff;
+    padding-bottom: 0.2em;
+}
+
 #our_vision {
     padding-top: 40px;
     padding-bottom: 40px;
     height: 140px;
     color: #fff;
 }
-#our_vision:before {
-    content: ' ';
-    background-color: #ffc90a;
-    width: 100%;
-    height: 220px;
-    margin-top: -40px;
-    position: absolute;
-    right: 0;
-    z-index: -1;
+
+    #our_vision:before {
+        content: ' ';
+        background-color: #ffc90a;
+        width: 100%;
+        height: 220px;
+        margin-top: -40px;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+
+div#who_we_are-description, #our_technology-description {
+    font-weight: 300;
+    font-size: 1.2em;
 }
+
+div#aboutus_footer {
+    color: #fff;
+}
+
+    div#aboutus_footer:before {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #303136;
+        content: " ";
+        z-index: -1;
+        height: 50em;
+        background-size: cover;
+        background-image: url('http://tripleplus.azurewebsites.net/wp-content/uploads/2015/06/pic-about-us.jpg');
+    }
+
+div#aboutus_text_header {
+    font-size: 2.4em;
+    font-weight: 300;
+    color: #fff;
+    line-height: 100px;
+    margin-top: -15px;
+    margin-left: -5px;
+}
+
+    div#aboutus_text_header:before {
+        content: " ";
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        background-color: #FFC90A;
+        z-index: -2;
+        top: 96px;
+        left: 0;
+    }
 /* distributors */
 
 .page-content.entry-content h4 strong {
     color: #ffc90a;
 }
+
 div#contact_us_deatils-description {
     font-size: 2.4em;
     color: #ffc90a;
     padding-top: 1em;
-    
 }
+
 div#distributors_login {
     padding-top: 3em;
 }
+
 div#distributors_login-description a {
     color: #58585A;
+}
+/* pruductos */
+
+.col4-2, .col2-1 {
+    width: 46.4%;
+}
+
+/**/
+.module.module-text, .image-title {
+    color: #666;
+}
+
+    .module.module-text.text-11-1-1-1 {
+        color: #fff;
+    }
+
+div#text-3091-1-0-2 {
+    color: #666;
+    padding-bottom: 2em;
+}
+
+div#text-3091-0-0-1:before {
+    content: " ";
+    width: 10000%;
+    height: 6.3em;
+    left: -48em;
+    margin-top: -20px;
+    position: absolute;
+    background-color: #FBAD18;
+    z-index: -1;
+}
+
+#all-product-title {
+    line-height: 80px;
+    font-size: 2.3em;
+    font-weight: 300;
+    color: #fff;
+    margin-top: -15px;
+}
+
+    #all-product-title:before {
+        content: " ";
+        left: 0;
+        position: absolute;
+        height: 80px;
+        width: 100%;
+        z-index: -1;
+        background-color: #fbad18;
+    }
+
+div#all-product-description {
+    padding-top: 2em;
+    font-size: 1.1em;
+}
+
+div#loops-wrapper {
+    display: flex;
 }

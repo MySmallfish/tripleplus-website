@@ -22,7 +22,9 @@ global $themify;
 		
                 <h1 class="page-title"><?php single_cat_title(); ?></h1>
                 <?php echo $themify->get_category_description(); ?>
-
+				<div id="all-product-title">
+				<?php _e('<!--:en-->All Products <!--:--><!--:he-->כל המוצרים <!--:-->'); ?>
+				</div>
 		<?php 
 		/////////////////////////////////////////////
 		// Loop	 							
