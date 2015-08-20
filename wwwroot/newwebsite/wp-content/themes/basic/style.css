@@ -2519,7 +2519,7 @@ div#support-container {
         width: 100%;
         position: absolute;
         left: 0;
-        height: 269px;
+        height: 314px;
         z-index: -1;
         margin-top: -60px;
     }
@@ -2567,3 +2567,31 @@ div#common_questions-title {
         margin-top: -19px;
         margin-left: -60px;
     }
+/* cocnct uss */
+
+div#contact_us_deatils-title {
+    color: #666;
+    font-weight: 300;
+    font-size: 2.2em;
+    padding-bottom: 0.7em;
+}
+div#contact_us_deatils-container{
+    padding-top:10%;
+}
+.tg-0ord{
+    color:#666;
+    font-weight:300;
+}
+.tg tbody tr td{
+    font-weight:300 !important;}
+td{
+    color:#666;
+}
+#text-2951-0-0-2 p:last-of-type, #text-2951-0-0-3 p:last-of-type,#text-2951-0-0-4 p:last-of-type ,#text-2951-0-0-5 p:last-of-type{
+    padding-left: 16px;
+    padding-bottom: 10px;
+    padding-top: 3px;
+}
+img.alignleft, img.aligncenter, img.alignright, img.alignnone {
+    margin-bottom: 3px;
+}

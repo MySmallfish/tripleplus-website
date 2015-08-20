@@ -61,7 +61,10 @@ global $themify; ?>
 
           </div>
           <div id="support_top_boxs-description">
-            <?php echo get_field( "support_top_boxs" );  ?>
+			<?php	
+	$post_object = get_field('support_top_boxs');
+	if( $post_object ){	$post = $post_object;	setup_postdata( $post ); the_content(); wp_reset_postdata();} 
+?>
           </div>
         </div>
 	<div id="support_top_boxs2" class="col3-1 middle tb-column">
@@ -69,7 +72,10 @@ global $themify; ?>
 
           </div>
           <div id="support_top_boxs2-description">
-            <?php echo get_field( "support_top_boxs_2" );  ?>
+			<?php	
+	$post_object = get_field('support_top_boxs_2');
+	if( $post_object ){	$post = $post_object;	setup_postdata( $post ); the_content(); wp_reset_postdata();} 
+?>
           </div>
         </div>
 	<div id="support_top_boxs3" class="col3-1 last tb-column">
@@ -77,7 +83,10 @@ global $themify; ?>
 
           </div>
           <div id="support_top_boxs3-description">
-            <?php echo get_field( "support_top_boxs_3" );  ?>
+			<?php	
+	$post_object = get_field('support_top_boxs_3');
+	if( $post_object ){	$post = $post_object;	setup_postdata( $post ); the_content(); wp_reset_postdata();} 
+?>
           </div>
         </div>
 		</div>
@@ -136,7 +145,10 @@ global $themify; ?>
             <?php _e('<!--:en-->Common questions<!--:--><!--:he-->שאלות נפוצות<!--:-->'); ?>
           </div>
           <div id="common_questions-description">
-            <?php echo get_field( "common_questions" );  ?>
+			<?php	
+	$post_object = get_field('common_questions');
+	if( $post_object ){	$post = $post_object;	setup_postdata( $post ); the_content(); wp_reset_postdata();} 
+?>
           </div>
         </div>
         <div id="support_contact_us">
@@ -144,7 +156,10 @@ global $themify; ?>
             <?php _e('<!--:en-->Contact us<!--:--><!--:he-->יצירת קשר<!--:-->'); ?>
           </div>
           <div id="support_contact_us-description">
-            <?php echo get_field( "support_contact_us" );  ?>
+			<?php	
+	$post_object = get_field('support_contact_us');
+	if( $post_object ){	$post = $post_object;	setup_postdata( $post ); the_content(); wp_reset_postdata();} 
+?>
           </div>
         </div>
         <div id="support_contact_form">

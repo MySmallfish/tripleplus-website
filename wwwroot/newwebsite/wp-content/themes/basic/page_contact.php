@@ -54,23 +54,24 @@ global $themify; ?>
       <div class="page-content entry-content" itemprop="articleBody">
 
         <?php the_content(); ?>
-
-        <div id="contact_us_deatils">
+		<div class="row_inner" id="contact_us_deatils-container">
+        <div id="contact_us_deatils" class="col4-2 first tb-column">
           <div id="contact_us_deatils-title">
             <?php _e('<!--:en-->Contact us<!--:--><!--:he-->יצירת קשר<!--:-->'); ?>
           </div>
-          <div id="contact_us_deatils-description">
+          <div id="contact_us_deatils-descriptionn">
             <?php echo get_field( "contact_us_deatils" );  ?>
           </div>
         </div>
-        <div id="contact_us_form">
+        <div id="contact_us_form" class="col4-2 last tb-column">
           <div id="contact_us_form-title">
             <?php // _e('<!--:en-->Contact us<!--:--><!--:he-->יצירת קשר<!--:-->'); ?>
           </div>
           <div id="contact_us_form-description">
             <?php echo get_field( "contact_us_form" );  ?>
           </div>
-        </div>
+        </div></div>
+
 
 
 
